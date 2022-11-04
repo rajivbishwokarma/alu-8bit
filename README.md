@@ -1,2 +1,1 @@
-# alu-8bit
-Simulation and layout design for 8-bit ALU
+# Simulation and Layout for Arithmetic Logic Unit - 8-BIT
