@@ -1,6 +1,6 @@
 (ExpressProject "GP_4BIT_BLOCK"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S033 (4064022)  [10/8/2022]-[11/06/22]")
+  (SoftwareVersion "17.4-2019 S033 (4064022)  [10/8/2022]-[11/07/22]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -23,7 +23,6 @@
       (DisplayName ".\alu-PSpiceFiles\PG_4BIT_BLOCK\PG_4BIT_BLOCK.net")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
-      (ActiveProfile ".\alu-pspicefiles\pg_4bit_block\pg_4bit_unit.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\alu-pspicefiles\pg_4bit_block\pg_4bit_unit.sim"
         (DisplayName "PG_4BIT_BLOCK-PG_4BIT_UNIT")
@@ -38,6 +37,9 @@
   (Folder "Logs")
   (PartMRUSelector
     (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (0
@@ -55,48 +57,59 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN")
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN")
       (Path "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"
-         "PG_8BIT_BLOCK")
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
+         "ALU")
       (Path "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
          "AND_BLOCK")
       (Path "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
+         "C0_BLOCK")
+      (Path "Design Resources"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
          "OR_BLOCK")
       (Path "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
          "PG_4BIT_BLOCK")
       (Path "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
+         "PG_8BIT_BLOCK")
+      (Path "Design Resources"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
          "PG_BLOCK")
       (Path "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"
-         "SCHEMATIC1")
-      (Path "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
          "XOR_BLOCK")
-      (Path "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"
-         "Design Cache")
       (Path "Outputs")
       (Select "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"
-         "PG_8BIT_BLOCK" "PG_8BIT_UNIT"))
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
+         "ALU" "ALU"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 245 0 819"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 728"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1629 24 837")
-        (Scroll "-195 -7")
-        (Zoom "79")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 746")
+        (Scroll "641 722")
+        (Zoom "280")
         (Occurrence "/"))
+      (Path
+         "D:\WORKSPACE\UB\2_FALL2022\ELEG448_VLSI\PROJECTS\PROJECT_2\ALU-8BIT\DESIGN\ALU.DSN")
+      (Schematic "ALU")
+      (Page "ALU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 746")
+        (Scroll "-58 0")
+        (Zoom "100")
+        (Occurrence "/PG_8BIT_U"))
       (Path
          "D:\WORKSPACE\UB\2_FALL2022\ELEG448_VLSI\PROJECTS\PROJECT_2\ALU-8BIT\DESIGN\ALU.DSN")
       (Schematic "PG_8BIT_BLOCK")
@@ -104,24 +117,47 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1629 24 837")
-        (Scroll "-282 -9")
-        (Zoom "106")
-        (Occurrence "/PG_4BIT_BLOCK1/PG0/G"))
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 746")
+        (Scroll "0 173")
+        (Zoom "100")
+        (Occurrence "/PG_8BIT_U/PG_4BIT_BLOCK1"))
+      (Path
+         "D:\WORKSPACE\UB\2_FALL2022\ELEG448_VLSI\PROJECTS\PROJECT_2\ALU-8BIT\DESIGN\ALU.DSN")
+      (Schematic "PG_4BIT_BLOCK")
+      (Page "PG_4BIT_UNIT"))
+    (Doc
+      (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1629 24 837")
-        (Scroll "-282 -9")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 746")
+        (Scroll "-304 0")
         (Zoom "106")
-        (Occurrence "/PG_4BIT_BLOCK1/PG1/G"))
+        (Occurrence "/PG_8BIT_U/PG_4BIT_BLOCK1/PG0"))
+      (Path
+         "D:\WORKSPACE\UB\2_FALL2022\ELEG448_VLSI\PROJECTS\PROJECT_2\ALU-8BIT\DESIGN\ALU.DSN")
+      (Schematic "PG_BLOCK")
+      (Page "PG_UNIT"))
+    (Doc
+      (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1629 24 837")
-        (Scroll "-282 -9")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 746")
+        (Scroll "-304 0")
         (Zoom "106")
-        (Occurrence "/PG_4BIT_BLOCK1/PG2/G"))
+        (Occurrence "/PG_8BIT_U/PG_4BIT_BLOCK1/PG0/G"))
       (Path
          "D:\WORKSPACE\UB\2_FALL2022\ELEG448_VLSI\PROJECTS\PROJECT_2\ALU-8BIT\DESIGN\ALU.DSN")
       (Schematic "AND_BLOCK")
-      (Page "AND")))
+      (Page "AND"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 746")
+        (Scroll "-304 0")
+        (Zoom "106")
+        (Occurrence "/PG_8BIT_U/PG_4BIT_BLOCK1/PG0/P"))
+      (Path
+         "D:\WORKSPACE\UB\2_FALL2022\ELEG448_VLSI\PROJECTS\PROJECT_2\ALU-8BIT\DESIGN\ALU.DSN")
+      (Schematic "XOR_BLOCK")
+      (Page "XOR")))
   (MPSSessionName "Rajiv")
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_17.4\tools\capture\library\pspice"))

@@ -1,6 +1,6 @@
 # Simulation and Layout for Arithmetic Logic Unit - 8-BIT
 ## Introduction
-## Part-1: PSpice simulation
+## Part-1: Schematic design and PSPICE simulation
 The simulation design is done in OrCAD Capture CIS.
 ###
 
