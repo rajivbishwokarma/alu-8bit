@@ -1,0 +1,60 @@
+* source ALU
+M_DUT_SUM1BIT_P_M104         DUT_SUM1BIT_P_OUT1_XNOR DUT_SUM1BIT_P_IN2_INV
++  DUT_SUM1BIT_P_N14272 VDC_DUT MbreakP  
++ L=2e-6  
++ W=9e-6         
+M_DUT_SUM1BIT_P_M6         DUT_SUM1BIT_P_IN2_INV PIN_DUT 0 0 MbreakN  
++ L=2e-6  
++ W=3e-6         
+M_DUT_SUM1BIT_P_M3         DUT_SUM1BIT_P_OUT1_XNOR CIN_DUT DUT_SUM1BIT_P_N14660
++  0 MbreakN  
++ L=2e-6  
++ W=3e-6         
+M_DUT_SUM1BIT_P_M101         DUT_SUM1BIT_P_N14272 DUT_SUM1BIT_P_IN1_INV VDC_DUT
++  VDC_DUT MbreakP  
++ L=2e-6  
++ W=9e-6         
+M_DUT_SUM1BIT_P_M9         DUT_SUM1BIT_P_IN1_INV CIN_DUT VDC_DUT VDC_DUT
++  MbreakP  
++ L=2e-6  
++ W=9e-6         
+M_DUT_SUM1BIT_P_M107         OUT_SUM DUT_SUM1BIT_P_OUT1_XNOR VDC_DUT VDC_DUT
++  MbreakP  
++ L=2e-6  
++ W=9e-6         
+M_DUT_SUM1BIT_P_M108         OUT_SUM DUT_SUM1BIT_P_OUT1_XNOR 0 0 MbreakN  
++ L=2e-6  
++ W=3e-6         
+M_DUT_SUM1BIT_P_M102         DUT_SUM1BIT_P_N14272 PIN_DUT VDC_DUT VDC_DUT
++  MbreakP  
++ L=2e-6  
++ W=9e-6         
+M_DUT_SUM1BIT_P_M2         DUT_SUM1BIT_P_N14654 PIN_DUT 0 0 MbreakN  
++ L=2e-6  
++ W=3e-6         
+M_DUT_SUM1BIT_P_M105         DUT_SUM1BIT_P_OUT1_XNOR CIN_DUT
++  DUT_SUM1BIT_P_N14272 VDC_DUT MbreakP  
++ L=2e-6  
++ W=9e-6         
+M_DUT_SUM1BIT_P_M1         DUT_SUM1BIT_P_OUT1_XNOR DUT_SUM1BIT_P_IN1_INV
++  DUT_SUM1BIT_P_N14654 0 MbreakN  
++ L=2e-6  
++ W=3e-6         
+M_DUT_SUM1BIT_P_M5         DUT_SUM1BIT_P_IN1_INV CIN_DUT 0 0 MbreakN  
++ L=2e-6  
++ W=3e-6         
+M_DUT_SUM1BIT_P_M106         DUT_SUM1BIT_P_IN2_INV PIN_DUT VDC_DUT VDC_DUT
++  MbreakP  
++ L=2e-6  
++ W=9e-6         
+M_DUT_SUM1BIT_P_M4         DUT_SUM1BIT_P_N14660 DUT_SUM1BIT_P_IN2_INV 0 0
++  MbreakN  
++ L=2e-6  
++ W=3e-6         
+V_TB_SUM1_V1         VDC_DUT 0 5Vdc
+V_TB_SUM1_V3         PIN_DUT 0  
++PWL 0ns 0V 100ns 0V 100.1ns 0V 200ns 0V 200.1ns 5V 300ns 5V 300.1ns 5V 400ns
++  5V 
+V_TB_SUM1_V2         CIN_DUT 0  
++PWL 0ns 0V 100ns 0V 100.1ns 5V 200ns 5V 200.1ns 0V 300ns 0V 300.1ns 5V 400ns
++  5V 
