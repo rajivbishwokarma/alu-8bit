@@ -46,22 +46,6 @@
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\alu-pspicefiles\pg_4bit_block\pg_4bit_unit.sim"
         (DisplayName "PG_4BIT_BLOCK-PG_4BIT_UNIT")
-        (Type "PSpice Profile"))
-      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
-         ".\alu-pspicefiles\tb_sum1bit\sim_400ns_p0_1.sim"
-        (DisplayName "TB_SUM1BIT-SIM_400ns_P0_1")
-        (Type "PSpice Profile"))
-      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
-         ".\alu-pspicefiles\tb_sum8bit\sum8bit_400p0_1ns.sim"
-        (DisplayName "TB_SUM8BIT-SUM8BIT_400P0_1ns")
-        (Type "PSpice Profile"))
-      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
-         ".\alu-pspicefiles\tb_pg8bit\pg8bit_400p0_1ns.sim"
-        (DisplayName "TB_PG8BIT-PG8BIT_400P0_1ns")
-        (Type "PSpice Profile"))
-      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
-         ".\alu-pspicefiles\tb_and3\and3_600p0_1ns.sim"
-        (DisplayName "TB_AND3-AND3_600P0_1ns")
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
@@ -99,18 +83,12 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN")
-      (Path "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"
-         "TB_SUM8BIT")
-      (Select "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"
-         "TB_SUM8BIT" "TB_SUM8BIT"))
+         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 747"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 293 0 747"))
       (Tab 0)))
   (MPSSessionName "Rajiv")
   (LastUsedLibraryBrowseDirectory
