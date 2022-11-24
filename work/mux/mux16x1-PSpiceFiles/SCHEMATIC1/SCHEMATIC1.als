@@ -1,0 +1,15 @@
+.ALIASES
+M_M2            M2(d=Y g=S_INV s=A b=A ) CN @MUX16X1.SCHEMATIC1(sch_1):INS13481@BREAKOUT.MbreakP4.Normal(chips)
+M_M1            M1(d=A g=S s=Y b=Y ) CN @MUX16X1.SCHEMATIC1(sch_1):INS13576@BREAKOUT.MbreakN4.Normal(chips)
+M_M11           M11(d=S_INV g=S s=0 b=0 ) CN @MUX16X1.SCHEMATIC1(sch_1):INS14109@BREAKOUT.MbreakN4.Normal(chips)
+M_M9            M9(d=S_INV g=S s=VDC_INVERT b=VDC_INVERT ) CN @MUX16X1.SCHEMATIC1(sch_1):INS14035@BREAKOUT.MbreakP4.Normal(chips)
+V_V1            V1(+=VDC_INVERT -=0 ) CN @MUX16X1.SCHEMATIC1(sch_1):INS15057@SOURCE.VDC.Normal(chips)
+V_V3            V3(+=S -=0 ) CN @MUX16X1.SCHEMATIC1(sch_1):INS15725@SOURCE.VPWL.Normal(chips)
+V_V2            V2(+=A -=0 ) CN @MUX16X1.SCHEMATIC1(sch_1):INS15791@SOURCE.VPWL.Normal(chips)
+_    _(GND_INVERT=0)
+_    _(A=A)
+_    _(S=S)
+_    _(S_INV=S_INV)
+_    _(VDC_INVERT=VDC_INVERT)
+_    _(Y=Y)
+.ENDALIASES

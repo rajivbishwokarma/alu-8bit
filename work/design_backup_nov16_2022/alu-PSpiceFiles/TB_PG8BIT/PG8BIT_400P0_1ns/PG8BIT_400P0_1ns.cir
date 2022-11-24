@@ -1,0 +1,19 @@
+** Profile: "TB_PG8BIT-PG8BIT_400P0_1ns"  [ d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu-PSpiceFiles\TB_PG8BIT\PG8BIT_400P0_1ns.sim ] 
+
+** Creating circuit file "PG8BIT_400P0_1ns.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Rajiv\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 400n 0 0.1n 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\TB_PG8BIT.net" 
+
+
+.END

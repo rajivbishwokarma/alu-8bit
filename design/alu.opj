@@ -1,0 +1,140 @@
+(ExpressProject "GP_4BIT_BLOCK"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S033 (4064022)  [10/8/2022]-[11/23/22]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\alu.DSN"
+      (Type "Schematic Design")
+      (DisplayName ".\alu.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\alu-PSpiceFiles\PG_4BIT_BLOCK\PG_4BIT_BLOCK.net"
+      (Type "Report")
+      (DisplayName ".\alu-PSpiceFiles\PG_4BIT_BLOCK\PG_4BIT_BLOCK.net"))
+    (File ".\alu-pspicefiles\tb_sum1bit\tb_sum1bit.net"
+      (Type "Report"))
+    (File ".\alu-pspicefiles\sum_8bit_block\sum_8bit_block.net"
+      (Type "Report"))
+    (File ".\alu-pspicefiles\tb_sum8bit\tb_sum8bit.net"
+      (Type "Report"))
+    (File ".\alu-pspicefiles\tb_pg8bit\tb_pg8bit.net"
+      (Type "Report"))
+    (File ".\alu-pspicefiles\tb_and3\tb_and3.net"
+      (Type "Report"))
+    (File ".\alu-pspicefiles\carry_4bit_block\carry_4bit_block.net"
+      (Type "Report"))
+    (File ".\alu-pspicefiles\carry_8bit_block\carry_8bit_block.net"
+      (Type "Report"))
+    (File ".\alu-pspicefiles\alu\alu.net"
+      (Type "Report"))
+    (File ".\alu-pspicefiles\inverter_8bit_block\inverter_8bit_block.net"
+      (Type "Report"))
+    (File ".\alu-pspicefiles\sub_xor_block\sub_xor_block.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\alu-pspicefiles\pg_4bit_block\pg_4bit_unit.sim"
+        (DisplayName "PG_4BIT_BLOCK-PG_4BIT_UNIT")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN")
+      (Path "Design Resources"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
+         "INVERTER_BLOCK")
+      (Path "Design Resources"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
+         "MUX_2BIT_BLOCK")
+      (Path "Design Resources"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
+         "MUX_8BIT_BLOCK")
+      (Path "Design Resources"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
+         "PG_BLOCK")
+      (Path "Design Resources"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
+         "TRANSMISSION_GATE_BLOCK"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 296 0 742"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1362 24 783")
+        (Scroll "-172 0")
+        (Zoom "101"))
+      (Path
+         "D:\WORKSPACE\UB\2_FALL2022\ELEG448_VLSI\PROJECTS\PROJECT_2\ALU-8BIT\DESIGN\ALU.DSN")
+      (Schematic "MUX_8BIT_BLOCK")
+      (Page "MUX_8BIT_UNIT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1362 24 783")
+        (Scroll "-172 0")
+        (Zoom "101"))
+      (Path
+         "D:\WORKSPACE\UB\2_FALL2022\ELEG448_VLSI\PROJECTS\PROJECT_2\ALU-8BIT\DESIGN\ALU.DSN")
+      (Schematic "MUX_2BIT_BLOCK")
+      (Page "MUX_2BIT_UNIT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1362 24 783")
+        (Scroll "-172 0")
+        (Zoom "101"))
+      (Path
+         "D:\WORKSPACE\UB\2_FALL2022\ELEG448_VLSI\PROJECTS\PROJECT_2\ALU-8BIT\DESIGN\ALU.DSN")
+      (Schematic "TRANSMISSION_GATE_BLOCK")
+      (Page "TRANS_GATE")))
+  (MPSSessionName "Rajiv")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_17.4\tools\capture\library\pspice"))

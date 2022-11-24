@@ -1,0 +1,19 @@
+** Profile: "PG_BLOCK-pg_unit"  [ d:\workspace\orcad\capture\gp_4bit_block-PSpiceFiles\PG_BLOCK\pg_unit.sim ] 
+
+** Creating circuit file "pg_unit.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Rajiv\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 400ns 0 0.1n 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\PG_BLOCK.net" 
+
+
+.END

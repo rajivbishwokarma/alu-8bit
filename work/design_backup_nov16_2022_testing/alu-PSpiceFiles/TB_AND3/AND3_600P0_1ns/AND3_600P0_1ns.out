@@ -1,0 +1,168 @@
+
+**** 11/09/22 00:05:44 **** PSpice 17.4.0 (8 October 2022) **** ID# 0 ********
+
+ ** Profile: "TB_AND3-AND3_600P0_1ns"  [ d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu-PSpiceFiles\T
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "AND3_600P0_1ns.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Rajiv\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 600ns 0 0.1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\TB_AND3.net" 
+
+
+
+**** INCLUDING TB_AND3.net ****
+* source ALU
+M_DUT_AND3_M5         DUT_AND3_N05774 VA VDC VDC MbreakP  
++ L=2e-6  
++ W=9e-6         
+M_DUT_AND3_M3         OUT DUT_AND3_N05774 0 0 MbreakN  
++ L=2e-6  
++ W=3e-6         
+M_DUT_AND3_M1         DUT_AND3_N05774 VB DUT_AND3_N05922 0 MbreakN  
++ L=2e-6  
++ W=3e-6         
+M_DUT_AND3_M7         DUT_AND3_N07754 VC 0 0 MbreakN  
++ L=2e-6  
++ W=3e-6         
+M_DUT_AND3_M2         DUT_AND3_N05922 VA DUT_AND3_N07754 0 MbreakN  
++ L=2e-6  
++ W=3e-6         
+M_DUT_AND3_M4         OUT DUT_AND3_N05774 VDC VDC MbreakP  
++ L=2e-6  
++ W=9e-6         
+M_DUT_AND3_M8         DUT_AND3_N05774 VC VDC VDC MbreakP  
++ L=2e-6  
++ W=9e-6         
+M_DUT_AND3_M6         DUT_AND3_N05774 VB VDC VDC MbreakP  
++ L=2e-6  
++ W=9e-6         
+V_TB_3SIG_V4         VC 0  
++PWL 0ns 0V 100ns 0V 100.1ns 0V 200ns 0V 200.1ns 0V 300ns 0V 300.1ns 5V 400ns
++  5V 400.1ns 5V 500ns 5V 
+V_TB_3SIG_V1         VDC 0 5Vdc
+V_TB_3SIG_V3         VB 0  
++PWL 0ns 0V 100ns 0V 100.1ns 0V 200ns 0V 200.1ns 5V 300ns 5V 300.1ns 5V 400ns
++  5V 400.1ns 0V 500ns 0V 
+V_TB_3SIG_V2         VA 0  
++PWL 0ns 0V 100ns 0V 100.1ns 5V 200ns 5V 200.1ns 0V 300ns 0V 300.1ns 5V 400ns
++  5V 400.1ns 0V 500ns 0V 
+
+**** RESUMING AND3_600P0_1ns.cir ****
+.END
+
+**** 11/09/22 00:05:44 **** PSpice 17.4.0 (8 October 2022) **** ID# 0 ********
+
+ ** Profile: "TB_AND3-AND3_600P0_1ns"  [ d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu-PSpiceFiles\T
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               MbreakP         MbreakN         
+               PMOS            NMOS            
+       LEVEL    1               1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO    0               0            
+          KP   20.000000E-06   20.000000E-06 
+       GAMMA    0               0            
+         PHI     .6              .6          
+      LAMBDA    0               0            
+          IS   10.000000E-15   10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+          CJ    0               0            
+        CJSW    0               0            
+        CGSO    0               0            
+        CGDO    0               0            
+        CGBO    0               0            
+         TOX    0               0            
+          XJ    0               0            
+       UCRIT   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+**** 11/09/22 00:05:44 **** PSpice 17.4.0 (8 October 2022) **** ID# 0 ********
+
+ ** Profile: "TB_AND3-AND3_600P0_1ns"  [ d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu-PSpiceFiles\T
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   VA)    0.0000  (   VB)    0.0000  (   VC)    0.0000  (  OUT) 33.40E-09      
+
+(  VDC)    5.0000  (DUT_AND3_N05774)    5.0000                                  
+
+(DUT_AND3_N05922)-522.6E-09           (DUT_AND3_N07754)-522.6E-09           
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_TB_3SIG_V4   0.000E+00
+    V_TB_3SIG_V1  -1.002E-11
+    V_TB_3SIG_V3   0.000E+00
+    V_TB_3SIG_V2   0.000E+00
+
+    TOTAL POWER DISSIPATION   5.01E-11  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/09/22 00:05:44 **** PSpice 17.4.0 (8 October 2022) **** ID# 0 ********
+
+ ** Profile: "TB_AND3-AND3_600P0_1ns"  [ d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu-PSpiceFiles\T
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .06
+
