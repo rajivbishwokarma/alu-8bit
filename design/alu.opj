@@ -1,6 +1,6 @@
 (ExpressProject "GP_4BIT_BLOCK"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S033 (4064022)  [10/8/2022]-[11/16/22]")
+  (SoftwareVersion "17.4-2019 S033 (4064022)  [10/8/2022]-[11/23/22]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -56,10 +56,10 @@
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
-    (PORTLEFT-L
+    (PORTRIGHT-R
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (PORTRIGHT-R
+    (PORTLEFT-L
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (0
@@ -83,30 +83,61 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN")
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN")
       (Path "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"
-         "ALU")
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
+         "INVERTER_BLOCK")
+      (Path "Design Resources"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
+         "MUX_2BIT_BLOCK")
+      (Path "Design Resources"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
+         "MUX_8BIT_BLOCK")
+      (Path "Design Resources"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
+         "PG_BLOCK")
+      (Path "Design Resources"
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
+         "TRANSMISSION_GATE_BLOCK")
       (Select "Design Resources"
-         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"
-         "ALU" "ADDER"))
+         "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"
+         "MUX_2BIT_BLOCK"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 348 0 782"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 296 0 759"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1310 24 800")
-        (Scroll "-146 -8")
-        (Zoom "101")
-        (Occurrence "/"))
+        (Placement "44 0 1 -1 -1 -1 -1 5 1362 24 800")
+        (Scroll "-172 -8")
+        (Zoom "101"))
       (Path
          "D:\WORKSPACE\UB\2_FALL2022\ELEG448_VLSI\PROJECTS\PROJECT_2\ALU-8BIT\DESIGN\ALU.DSN")
-      (Schematic "ALU")
-      (Page "ADDER")))
+      (Schematic "MUX_8BIT_BLOCK")
+      (Page "MUX_8BIT_UNIT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1362 24 800")
+        (Scroll "-172 -8")
+        (Zoom "101"))
+      (Path
+         "D:\WORKSPACE\UB\2_FALL2022\ELEG448_VLSI\PROJECTS\PROJECT_2\ALU-8BIT\DESIGN\ALU.DSN")
+      (Schematic "MUX_2BIT_BLOCK")
+      (Page "MUX_2BIT_UNIT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1362 24 800")
+        (Scroll "-172 -8")
+        (Zoom "101"))
+      (Path
+         "D:\WORKSPACE\UB\2_FALL2022\ELEG448_VLSI\PROJECTS\PROJECT_2\ALU-8BIT\DESIGN\ALU.DSN")
+      (Schematic "TRANSMISSION_GATE_BLOCK")
+      (Page "TRANS_GATE")))
   (MPSSessionName "Rajiv")
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_17.4\tools\capture\library\pspice"))
