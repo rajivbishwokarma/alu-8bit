@@ -179,7 +179,7 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 306 0 820"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 820"))
       (Tab 0)))
   (MPSSessionName "Rajiv")
   (LastUsedLibraryBrowseDirectory
