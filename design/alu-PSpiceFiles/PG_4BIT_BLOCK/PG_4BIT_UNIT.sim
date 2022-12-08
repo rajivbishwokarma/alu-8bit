@@ -14,10 +14,10 @@ Notes=
 @End General
 @Analysis: 0 1
 +0 0 0 0 
-+0 "400ns" 
++0 "1000ns" 
 +1 "" 
 +2 "0" 
-+3 "0.1n" 
++3 "" 
 +4 "" 
 +5 "" 
 +6 "" 
@@ -124,7 +124,7 @@ SaveFile 0 ""
 @Analysis: 15 0
 @End Analysis
 @Analysis: 16 0
-+0 "0" 
++0 "-1" 
 +1 "0" 
 @End Analysis
 @Analysis: 17 0

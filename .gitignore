@@ -1,6 +1,16 @@
-work/*
-git-credential-manager/
-design/alu-PSpiceFiles/*
+*
+
+!.gitignore
+!design/ALU.DSN
+!html/*
+!layout/*
+!presentation/*
+!test/ALU_TB_ADDER.DSN
+!test-setup/*
+!waveforms/*
+!LICENSE
+!README.md
+
 
 
 
