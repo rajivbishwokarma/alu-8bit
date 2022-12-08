@@ -1,6 +1,10 @@
 (ExpressProject "GP_4BIT_BLOCK"
   (ProjectVersion "19981106")
+<<<<<<< HEAD
   (SoftwareVersion "17.4-2019 S033 (4064022)  [10/8/2022]-[11/23/22]")
+=======
+  (SoftwareVersion "17.4-2019 S033 (4064022)  [10/8/2022]-[12/06/22]")
+>>>>>>> alu-no-test
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -15,6 +19,7 @@
     (CompileFileAddedOrDeleted "x")
     (RootChangedForceReNetlist "x")
     (PSPICE_Regenerate_Netlist_Flag "FALSE")
+<<<<<<< HEAD
     (Board_sim_option "VHDL_flow"))
   (Folder "Layout")
   (Folder "Outputs"
@@ -49,6 +54,122 @@
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
+=======
+    (Board_sim_option "VHDL_flow")
+    ("Allegro Netlist Directory" "allegro")
+    ("Allegro Netlist Output Board File" ".\allegro\alu_tb_adder.brd"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\alu_testbench-PSpiceFiles\PG_4BIT_BLOCK\PG_4BIT_BLOCK.net"
+      (Type "Report")
+      (DisplayName
+         ".\alu_testbench-PSpiceFiles\PG_4BIT_BLOCK\PG_4BIT_BLOCK.net"))
+    (File ".\alu-pspicefiles\tb_sum1bit\tb_sum1bit.net"
+      (Type "Report")
+      (DisplayName ".\alu-pspicefiles\tb_sum1bit\tb_sum1bit.net"))
+    (File ".\alu_testbench-PSpiceFiles\SUM_8BIT_BLOCK\SUM_8BIT_BLOCK.net"
+      (Type "Report")
+      (DisplayName
+         ".\alu_testbench-PSpiceFiles\SUM_8BIT_BLOCK\SUM_8BIT_BLOCK.net"))
+    (File ".\alu-pspicefiles\tb_sum8bit\tb_sum8bit.net"
+      (Type "Report")
+      (DisplayName ".\alu-pspicefiles\tb_sum8bit\tb_sum8bit.net"))
+    (File ".\alu-pspicefiles\tb_pg8bit\tb_pg8bit.net"
+      (Type "Report")
+      (DisplayName ".\alu-pspicefiles\tb_pg8bit\tb_pg8bit.net"))
+    (File ".\alu-pspicefiles\tb_and3\tb_and3.net"
+      (Type "Report")
+      (DisplayName ".\alu-pspicefiles\tb_and3\tb_and3.net"))
+    (File ".\alu_testbench-PSpiceFiles\CARRY_4BIT_BLOCK\CARRY_4BIT_BLOCK.net"
+      (Type "Report")
+      (DisplayName
+         ".\alu_testbench-PSpiceFiles\CARRY_4BIT_BLOCK\CARRY_4BIT_BLOCK.net"))
+    (File ".\alu_testbench-PSpiceFiles\CARRY_8BIT_BLOCK\CARRY_8BIT_BLOCK.net"
+      (Type "Report")
+      (DisplayName
+         ".\alu_testbench-PSpiceFiles\CARRY_8BIT_BLOCK\CARRY_8BIT_BLOCK.net"))
+    (File ".\alu_testbench-PSpiceFiles\ALU\ALU.net"
+      (Type "Report")
+      (DisplayName ".\alu_testbench-PSpiceFiles\ALU\ALU.net"))
+    (File
+       ".\alu_testbench-PSpiceFiles\INVERTER_8BIT_BLOCK\INVERTER_8BIT_BLOCK.net"
+      (Type "Report")
+      (DisplayName
+         ".\alu_testbench-PSpiceFiles\INVERTER_8BIT_BLOCK\INVERTER_8BIT_BLOCK.net"))
+    (File ".\alu_testbench-PSpiceFiles\SUB_XOR_BLOCK\SUB_XOR_BLOCK.net"
+      (Type "Report")
+      (DisplayName
+         ".\alu_testbench-PSpiceFiles\SUB_XOR_BLOCK\SUB_XOR_BLOCK.net"))
+    (File ".\alu_testbench-PSpiceFiles\MUX_8BIT_BLOCK\MUX_8BIT_BLOCK.net"
+      (Type "Report")
+      (DisplayName
+         ".\alu_testbench-PSpiceFiles\MUX_8BIT_BLOCK\MUX_8BIT_BLOCK.net"))
+    (File ".\alu_testbench-PSpiceFiles\MUX_8BIT_8BLOCKS\MUX_8BIT_8BLOCKS.net"
+      (Type "Report")
+      (DisplayName
+         ".\alu_testbench-PSpiceFiles\MUX_8BIT_8BLOCKS\MUX_8BIT_8BLOCKS.net"))
+    (File ".\alu-PSpiceFiles\TB_ALU_ADD\TB_ALU_ADD.net"
+      (Type "Report")
+      (DisplayName ".\alu-PSpiceFiles\TB_ALU_ADD\TB_ALU_ADD.net"))
+    (File ".\alu-PSpiceFiles\TB_ALU\TB_ALU.net"
+      (Type "Report")
+      (DisplayName ".\alu-PSpiceFiles\TB_ALU\TB_ALU.net"))
+    (File ".\alu-PSpiceFiles\TB_ADD\TB_ADD.net"
+      (Type "Report")
+      (DisplayName ".\alu-PSpiceFiles\TB_ADD\TB_ADD.net"))
+    (File ".\alu-PSpiceFiles\TB_ADD_37_73\TB_ADD_37_73.net"
+      (Type "Report")
+      (DisplayName ".\alu-PSpiceFiles\TB_ADD_37_73\TB_ADD_37_73.net"))
+    (File ".\alu-PSpiceFiles\TB_AND_37_73\TB_AND_37_73.net"
+      (Type "Report")
+      (DisplayName ".\alu-PSpiceFiles\TB_AND_37_73\TB_AND_37_73.net"))
+    (File ".\alu-PSpiceFiles\TB_OR_37_73\TB_OR_37_73.net"
+      (Type "Report")
+      (DisplayName ".\alu-PSpiceFiles\TB_OR_37_73\TB_OR_37_73.net"))
+    (File ".\alu-PSpiceFiles\TB_SUB_37_73\TB_SUB_37_73.net"
+      (Type "Report")
+      (DisplayName ".\alu-PSpiceFiles\TB_SUB_37_73\TB_SUB_37_73.net"))
+    (File ".\alu-PSpiceFiles\TB_SUB_73_37\TB_SUB_73_37.net"
+      (Type "Report")
+      (DisplayName ".\alu-PSpiceFiles\TB_SUB_73_37\TB_SUB_73_37.net"))
+    (File ".\alu-PSpiceFiles\TB_ALL_INSTRUCTIONS\TB_ALL_INSTRUCTIONS.net"
+      (Type "Report")
+      (DisplayName
+         ".\alu-PSpiceFiles\TB_ALL_INSTRUCTIONS\TB_ALL_INSTRUCTIONS.net")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\alu-pspicefiles\mux_8bit_block\mux_8bit.sim"
+        (DisplayName "MUX_8BIT_BLOCK-MUX_8BIT")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\alu-pspicefiles\alu\alu_8bit.sim"
+        (DisplayName "ALU-ALU_8BIT")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\alu-pspicefiles\mux_8bit_8blocks\mux_8bit_8blocks.sim"
+        (DisplayName "MUX_8BIT_8BLOCKS-mux_8bit_8blocks")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\alu-pspicefiles\tb_all_instructions\tb_all_instructions_400ns_output.sim"
+        (DisplayName "TB_ALL_INSTRUCTIONS-tb_all_instructions_400ns_output")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\alu-pspicefiles\pg_4bit_block\pg_4bit_unit.sim"
+        (DisplayName "PG_4BIT_BLOCK-PG_4BIT_UNIT")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\alu-pspicefiles\tb_all_instructions\all-signal-100ns.sim"
+        (DisplayName "TB_ALL_INSTRUCTIONS-all-signal-100ns")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\alu-pspicefiles\tb_all_instructions\tb_all_instructions_400ns_output.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\alu-PSpiceFiles\ALU_TB_ADDER.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\alu-PSpiceFiles\ALU_TB_ADDER.lib")))
+>>>>>>> alu-no-test
     (Folder "Stimulus Files"
       (Sort User))
     (Folder "Include Files"
@@ -56,11 +177,23 @@
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
+<<<<<<< HEAD
     (PORTLEFT-L
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (PORTRIGHT-R
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+=======
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+>>>>>>> alu-no-test
       (DeviceIndex "0"))
     (0
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -71,6 +204,7 @@
     (OFFPAGELEFT-L
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
+<<<<<<< HEAD
     (VDC
       (FullPartName "VDC.Normal")
       (LibraryName
@@ -78,18 +212,48 @@
       (DeviceIndex "0"))
     (PORTRIGHT-L
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+=======
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+>>>>>>> alu-no-test
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
+<<<<<<< HEAD
       (Select "Design Resources"
          "d:\workspace\ub\2_fall2022\eleg448_vlsi\projects\project_2\alu-8bit\design\alu.DSN"))
+=======
+      (Path "Design Resources"
+         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN")
+      (Path "Design Resources"
+         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"
+         "ALU")
+      (Select "Design Resources"
+         "D:\Workspace\UB\2_Fall2022\ELEG448_VLSI\Projects\Project_2\alu-8bit\design\alu.DSN"
+         "ALU"))
+>>>>>>> alu-no-test
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
+<<<<<<< HEAD
         (Placement "44 0 1 -1 -1 -1 -1 0 200 0 765"))
       (Tab 0)))
   (MPSSessionName "Rajiv")
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_17.4\tools\capture\library\pspice"))
+=======
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 820"))
+      (Tab 0)))
+  (MPSSessionName "Rajiv")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_17.4\tools\capture\library\pspice")
+  (ISPCBBASICLICENSE "false"))
+>>>>>>> alu-no-test
