@@ -9,27 +9,4 @@ design/alu.opj
 design/ALU_0.DBK
 design/alu_pspmetadata.db
 
-<<<<<<< HEAD
-design/ALU_0.DBK
-design/alu-PSpiceFiles/PG_4BIT_BLOCK/PG_4BIT_UNIT.sim
-design/alu-PSpiceFiles/PG_4BIT_BLOCK/PG_4BIT_UNIT/PG_4BIT_UNIT.mrk        
-design/alu_pspmetadata.db
-=======
-
->>>>>>> alu-no-test
-
-
-# !.gitignore
-# !./design/ALU.DSN
-# !./html/*
-# !layout/*
-# !presentation/*
-# !test/ALU_TB_ADDER.DSN
-# !test-setup/*
-# !waveforms/*
-# !LICENSE
-# !README.md
-
-
-
 
